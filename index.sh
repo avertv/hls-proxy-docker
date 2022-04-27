@@ -1,4 +1,5 @@
 #!/bin/sh
+
 echo '------ DOWNLOADING HLS PROXY -------'
 wget https://www.hls-proxy.com/downloads/8.1.9/hls-proxy-8.1.9.linux-arm64.zip -O /var/tmp/hlsproxy.zip
 echo '------ UNZIP HLS PROXY -------'
@@ -8,6 +9,7 @@ cp /var/tmp/hlsp/* /opt/hlsp
 echo '------ CLEAN UP TEMP -------'
 rm -rf /var/tmp/hlsp/
 rm -rf /var/tmp/hlsproxy.zip
+rm -rf /var/lib/apt/lists/*
 echo '------ CHMOD HLS PROXY -------'
 chmod +x /opt/hlsp/hls-proxy
 echo '------ ALLOW HLS PROXY ON EVERY INTERFACE -------'
