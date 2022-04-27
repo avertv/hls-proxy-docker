@@ -1,4 +1,4 @@
-FROM arm64/alpine:latest
+FROM alpine:latest
 EXPOSE 8085
 
 RUN apt-get update
