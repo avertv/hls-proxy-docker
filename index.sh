@@ -11,6 +11,6 @@ rm -rf /var/tmp/hlsproxy.zip
 echo '------ CHMOD HLS PROXY -------'
 chmod +x /opt/hlsp/hls-proxy
 echo '------ ALLOW HLS PROXY ON EVERY INTERFACE -------'
-/opt/hlsp/hls-proxy -address 127.0.0.1 -port 8085 -save -quit
+/opt/hlsp/hls-proxy -address 0.0.0.0 -port 8085 -save -quit
 echo '------ SERVE HLS PROXY -------'
 /opt/hlsp/hls-proxy
