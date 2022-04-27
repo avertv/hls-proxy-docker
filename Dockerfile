@@ -1,4 +1,4 @@
-FROM amd64/ubuntu:latest
+FROM arm64/alpine:latest
 EXPOSE 8085
 
 RUN apt-get update
