@@ -11,7 +11,7 @@ First `git clone` this repository, `cd` to the repo directory and run
 docker-compose up --build -d
 ```
 
-The proxy will be available on http://localhost:3080 or http://YOUR_WEB_SERVER:3080
+The proxy will be available on http://localhost:8080 or http://YOUR_WEB_SERVER:8080
 
 Configure Settings On The WEB UI
 
