@@ -9,6 +9,7 @@ RUN apk add --no-cache unzip
 RUN mkdir -p /opt/hlsp
 VOLUME [ "/opt/hlsp" ]
 COPY index.sh .
+CMD sleep 15
 ENTRYPOINT [ "./index.sh" ]
 
 
