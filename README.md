@@ -13,8 +13,7 @@ docker-compose up --build -d
 P.S. Прокинута папка с хоста /opt/hls-proxy в контейнер, 
 т.е. все настройки hls-proxy на хостовой машине.
 Если хотите хранить всё в контейнере и настроить с нуля,
-то в файле `docker-compose.yml` закоментируйте `#  - /opt/hls-proxy/:/opt/hlsp/`
-и раскоментируйте `- ./data:/opt/hlsp/`
+то в файле `docker-compose.yml` закоментируйте `#  - /opt/hls-proxy/:/opt/hlsp/` и раскоментируйте `- ./data:/opt/hlsp/`
 
 The proxy will be available on http://localhost:8080 or http://YOUR_WEB_SERVER:8080
 
