@@ -5,7 +5,8 @@ services:
     build: ./
     ports:
       - '8080:8085'
-    restart:
-      - always  
     volumes:
       - ./data:/opt/hlsp/
+    restart:
+        always
+        
