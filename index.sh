@@ -6,6 +6,7 @@ echo '------ UNZIP HLS PROXY -------'
 mkdir -p /var/tmp/hlsp/
 unzip -o /var/tmp/hlsproxy.zip -d /var/tmp/hlsp/
 cp /var/tmp/hlsp/* /opt/hlsp
+cp /data/groups.sample.json /opt/hlsp/groups.json
 echo '------ CLEAN UP TEMP -------'
 rm -rf /var/tmp/hlsp/
 rm -rf /var/tmp/hlsproxy.zip
