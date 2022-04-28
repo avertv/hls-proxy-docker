@@ -7,7 +7,7 @@ services:
       - '8080:8085'
     volumes:
 #      - ./data:/opt/hlsp/
-      - /data/:/opt/hls-proxy
+      - /opt/hls-proxy/:/opt/hlsp/
     restart:
         always
         
