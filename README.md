@@ -5,7 +5,7 @@ Docker to setup HLS Proxy
 This is a very simple docker, it doesn't do anything more than download HLS Proxy and run it.
 
 ## Installation
-P.S. Прокинута папка с хоста /opt/hls-proxy в контейнер, 
+P.S. Прокинута папка с хоста `/opt/hls-proxy/` в контейнер, 
 т.е. все настройки hls-proxy на хостовой машине.
 Если хотите хранить всё в контейнере и настроить с нуля,
 то в файле `docker-compose.yml` 
