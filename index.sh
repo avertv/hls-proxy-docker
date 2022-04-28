@@ -6,7 +6,8 @@ echo '------ UNZIP HLS PROXY -------'
 mkdir -p /var/tmp/hlsp/
 unzip -o /var/tmp/hlsproxy.zip -d /var/tmp/hlsp/
 cp /var/tmp/hlsp/* /opt/hlsp
-cp /data/groups.sample.json /opt/hlsp/groups.json
+echo '------ copy your groups.json -------'
+wget https://raw.githubusercontent.com/avertv/hls-proxy-docker/master/data/groups.sample.json -O /opt/hlsp/groups.json
 echo '------ CLEAN UP TEMP -------'
 rm -rf /var/tmp/hlsp/
 rm -rf /var/tmp/hlsproxy.zip
