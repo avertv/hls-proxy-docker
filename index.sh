@@ -14,7 +14,5 @@ echo '------ CHMOD HLS PROXY -------'
 chmod +x /opt/hlsp/hls-proxy
 echo '------ ALLOW HLS PROXY ON EVERY INTERFACE -------'
 /opt/hlsp/hls-proxy -address 127.0.0.1 -port 8085 -save -quit
-echo '------ COPY grous.json -------'
-cp /data/groups.sample.json /opt/hlsp/groups.json
 echo '------ SERVE HLS PROXY -------'
 /opt/hlsp/hls-proxy
