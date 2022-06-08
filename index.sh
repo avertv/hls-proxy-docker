@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo '------ DOWNLOADING HLS PROXY -------'
-wget https://www.hls-proxy.com/downloads/8.2.0/hls-proxy-8.2.0.linux-arm64.zip -O /var/tmp/hlsproxy.zip
+wget https://www.hls-proxy.com/downloads/8.2.0/hls-proxy-8.2.0.alpine-arm64.zip -O /var/tmp/hlsproxy.zip
 echo '------ UNZIP HLS PROXY -------'
 mkdir -p /var/tmp/hlsp/
 unzip -o /var/tmp/hlsproxy.zip -d /var/tmp/hlsp/
