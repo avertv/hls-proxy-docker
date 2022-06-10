@@ -1,17 +1,13 @@
-FROM alpine:3.15.4
-EXPOSE 8085
+FROM alpine:latest 
+EXPOSE 8080
+LABEL maintainer="AverTV"
 
-RUN apk update
-RUN apk add --no-cache mc
-RUN apk add --no-cache ffmpeg
-RUN apk add --no-cache wget
-RUN apk add --no-cache unzip
-RUN mkdir -p /opt/hlsp
-VOLUME [ "/opt/hlsp" ]
+RUN apk update && apk add --no-cache mc && apk add --no-cache ffmpeg && \
+	apk add --no-cache wget && apk add --no-cache unzip && \
+	apk add --no-cache nano && apk add --no-cache ca-certificates && \
+	apk add --no-cache procps
+	
+VOLUME [ "/opt/hls-proxy" ]
 COPY index.sh .
-CMD sleep 15
+CMD sleep 10
 ENTRYPOINT [ "./index.sh" ]
-
-
-
-
