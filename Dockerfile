@@ -1,6 +1,6 @@
 FROM alpine:latest 
 EXPOSE 8080
-LABEL maintainer="AverTV"
+LABEL maintainer=""
 
 RUN apk update && apk add --no-cache mc && apk add --no-cache ffmpeg && \
 	apk add --no-cache wget && apk add --no-cache unzip && \
