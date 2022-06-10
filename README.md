@@ -1,4 +1,4 @@
-# hls-proxy-docker linux-arm64 
+# hls-proxy-docker  
 Based on alpine:latest image
 ## 
 Docker to setup HLS Proxy
