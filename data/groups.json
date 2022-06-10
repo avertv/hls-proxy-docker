@@ -1,283 +1,297 @@
 {
 	"dictionary": [
 		{
-			"id": "Молдавия | Moldovenească",
-			"en": "",
-			"es": "",
-			"ru": "Молдавия | Moldovenească",
+			"id": "films",
+			"en": "Movies",
+			"es": "Películas",
+			"ru": "Фильмы",
+			"custom": [
+				"Кино",
+				"кино",
+				"Фильмовые",
+				"Кино и сериалы",
+				"Кинозалы"
+			]
+		},
+		{
+			"id": "sport",
+			"en": "Sport",
+			"es": "Deportes",
+			"ru": "Спорт",
+			"custom": [
+				"Спортивные"
+			]
+		},
+		{
+			"id": "kids",
+			"en": "Kids",
+			"es": "Infantil",
+			"ru": "Детские",
+			"custom": [
+				"Мультфильмы",
+				"Детям и мамам"
+			]
+		},
+		{
+			"id": "knowledge",
+			"en": "Knowledge",
+			"es": "Conocimiento",
+			"ru": "Познавательные",
+			"custom": [
+				"Education",
+				"Lifestyle",
+				"Travel",
+				"Food",
+				"Образовательные",
+				"Кухня тв",
+				"Еда"
+			]
+		},
+		{
+			"id": "music",
+			"en": "Music",
+			"es": "Música",
+			"ru": "Музыка",
+			"custom": [
+				"Музыкальные"
+			]
+		},
+		{
+			"id": "men",
+			"en": "Men's",
+			"es": "Masculino",
+			"ru": "Мужские",
+			"custom": [
+				"Auto"
+			]
+		},
+		{
+			"id": "news",
+			"en": "News",
+			"es": "Noticias",
+			"ru": "Новости",
+			"custom": [
+				"Weather",
+				"Business",
+				"Legislative",
+				"Новостные",
+				"Информационные"
+			]
+		},
+		{
+			"id": "entertainment",
+			"en": "Entertainment",
+			"es": "Entretenimiento",
+			"ru": "Развлекательные",
+			"custom": [
+				"Comedy",
+				"Family",
+				"Компьютерные игры",
+				"Семейные"
+			]
+		},
+		{
+			"id": "regional",
+			"en": "Regional",
+			"es": "Regional",
+			"ru": "Региональные",
+			"custom": [
+				"Local"
+			]
+		},
+		{
+			"id": "radio",
+			"en": "Radio",
+			"es": "Radio",
+			"ru": "Радио",
 			"custom": []
 		},
 		{
-			"id": "Германия | Germany",
-			"en": "",
-			"es": "",
-			"ru": "Германия | Germany",
+			"id": "shopping",
+			"en": "Shopping",
+			"es": "Compras",
+			"ru": "Покупки",
+			"custom": [
+				"Shop",
+				"Телемагазины"
+			]
+		},
+		{
+			"id": "ultra hd",
+			"en": "Ultra HD",
+			"es": "4K",
+			"ru": "4K",
+			"custom": [
+				"4K",
+				"UHD",
+				"Ultra HD",
+				"Ultra HD 4K"
+			]
+		},
+		{
+			"id": "israel",
+			"en": "Israel",
+			"es": "Israel",
+			"ru": "Израиль",
+			"custom": [
+				"ישראל",
+				"ישראלי"
+			]
+		},
+		{
+			"id": "docu",
+			"en": "Docu",
+			"es": "Documental",
+			"ru": "Документальные",
+			"custom": [
+				"Documentary",
+				"History"
+			]
+		},
+		{
+			"id": "hobby",
+			"en": "Hobby",
+			"es": "Hobby",
+			"ru": "Хобби",
+			"custom": [
+				"Увлечения"
+			]
+		},
+		{
+			"id": "health",
+			"en": "Health",
+			"es": "Salud",
+			"ru": "Здоровье",
 			"custom": []
 		},
 		{
-			"id": "Турция | Türk",
-			"en": "",
-			"es": "",
-			"ru": "Турция | Türk",
-			"custom": []
+			"id": "fashion",
+			"en": "Fashion",
+			"es": "Fashion",
+			"ru": "Мода",
+			"custom": [
+				"Fashion ТВ"
+			]
 		},
 		{
-			"id": "Таджикистан | Точик",
+			"id": "foreign",
 			"en": "",
 			"es": "",
-			"ru": "Таджикистан | Точик",
-			"custom": []
+			"ru": "Зарубежные",
+			"custom": [
+				"США",
+				"Австралия",
+				"Португалия",
+				"Европа",
+				"Азия",
+				"Таджикистан",
+				"Сербия",
+				"Молдова",
+				"Испания",
+				"Казахстан | Қазақстан",
+				"Молдавия | Moldovenească",
+				"Румыния | Romania",
+				"Эстония | Eesti",
+				"Эстония | Estonia",
+				"Грузия | ქართული",
+				"Азербайджан | Azərbaycan",
+				"Турция | Türk",
+				"Германия | Germany",
+				"Таджикистан | Точик",
+				"Узбекистан | O'zbek",
+				"Болгария | Bulgaria",
+				"Словакия | Slovakia",
+				"Хорватия | Croatia",
+				"Чехия | Czech Republic",
+				"Европа | Europe",
+				"Франция | France",
+				"Италия | Italia",
+				"Италия | Italy",
+				"Испания | Spain",
+				"Португалия | Portugal",
+				"Бразилия | Brasil",
+				"Великобритания | United Kingdom",
+				"США | USA",
+				"Канада | Canada",
+				"Австралия | Australia",
+				"Арабские | عربي",
+				"ОАЭ | UAE",
+				"Индия | India",
+				"Дания | Denmark",
+				"Нидерланды | Netherlands",
+				"Норвегия | Norway",
+				"Финляндия | Finland",
+				"Швеция | Sweden",
+				"Южная Корея | Korea",
+				"Египет | Egypt",
+				"Покупки",
+				"USA",
+				"azərbaycan",
+				"ქართული",
+				"қазақстан",
+				"точик",
+				"o'zbek",
+				"moldovenească",
+				"türk"
+			]
 		},
 		{
-			"id": "Узбекистан | O'zbek",
-			"en": "",
-			"es": "",
-			"ru": "Узбекистан | O'zbek",
-			"custom": []
-		},
-		{
-			"id": "Болгария | Bulgaria",
-			"en": "",
-			"es": "",
-			"ru": "Болгария | Bulgaria",
-			"custom": []
-		},
-		{
-			"id": "Словакия | Slovakia",
-			"en": "",
-			"es": "",
-			"ru": "Словакия | Slovakia",
-			"custom": []
-		},
-		{
-			"id": "Хорватия | Croatia",
-			"en": "",
-			"es": "",
-			"ru": "Хорватия | Croatia",
-			"custom": []
-		},
-		{
-			"id": "Чехия | Czech Republic",
-			"en": "",
-			"es": "",
-			"ru": "Чехия | Czech Republic",
-			"custom": []
-		},
-		{
-			"id": "Европа | Europe",
-			"en": "",
-			"es": "",
-			"ru": "Европа | Europe",
-			"custom": []
-		},
-		{
-			"id": "Франция | France",
-			"en": "",
-			"es": "",
-			"ru": "Франция | France",
-			"custom": []
-		},
-		{
-			"id": "Италия | Italia",
-			"en": "",
-			"es": "",
-			"ru": "Италия | Italia",
-			"custom": []
-		},
-		{
-			"id": "Испания | Spain",
-			"en": "",
-			"es": "",
-			"ru": "Испания | Spain",
-			"custom": []
-		},
-		{
-			"id": "Португалия | Portugal",
-			"en": "",
-			"es": "",
-			"ru": "Португалия | Portugal",
-			"custom": []
-		},
-		{
-			"id": "Бразилия | Brasil",
-			"en": "",
-			"es": "",
-			"ru": "Бразилия | Brasil",
-			"custom": []
-		},
-		{
-			"id": "Великобритания | United Kingdom",
-			"en": "",
-			"es": "",
-			"ru": "Великобритания | United Kingdom",
-			"custom": []
-		},
-		{
-			"id": "США | USA",
-			"en": "",
-			"es": "",
-			"ru": "США | USA",
-			"custom": []
-		},
-		{
-			"id": "Канада | Canada",
-			"en": "",
-			"es": "",
-			"ru": "Канада | Canada",
-			"custom": []
-		},
-		{
-			"id": "Австралия | Australia",
-			"en": "",
-			"es": "",
-			"ru": "Австралия | Australia",
-			"custom": []
-		},
-		{
-			"id": "Арабские | عربي",
-			"en": "",
-			"es": "",
-			"ru": "Арабские | عربي",
-			"custom": []
-		},
-		{
-			"id": "ОАЭ | UAE",
-			"en": "",
-			"es": "",
-			"ru": "ОАЭ | UAE",
-			"custom": []
-		},
-		{
-			"id": "Египет | Egypt",
-			"en": "",
-			"es": "",
-			"ru": "Египет | Egypt",
-			"custom": []
-		},
-		{
-			"id": "Индия | India",
-			"en": "",
-			"es": "",
-			"ru": "Индия | India",
-			"custom": []
-		},
-		{
-			"id": "Дания | Denmark",
-			"en": "",
-			"es": "",
-			"ru": "Дания | Denmark",
-			"custom": []
-		},
-		{
-			"id": "Нидерланды | Netherlands",
-			"en": "",
-			"es": "",
-			"ru": "Нидерланды | Netherlands",
-			"custom": []
-		},
-		{
-			"id": "Норвегия | Norway",
-			"en": "",
-			"es": "",
-			"ru": "Норвегия | Norway",
-			"custom": []
-		},
-		{
-			"id": "Финляндия | Finland",
-			"en": "",
-			"es": "",
-			"ru": "Финляндия | Finland",
-			"custom": []
-		},
-		{
-			"id": "Швеция | Sweden",
-			"en": "",
-			"es": "",
-			"ru": "Швеция | Sweden",
-			"custom": []
-		},
-		{
-			"id": "Южная Корея | Korea",
-			"en": "",
-			"es": "",
-			"ru": "Южная Корея | Korea",
-			"custom": []
-		},
-		{
-			"id": "Телемагазины",
-			"en": "",
-			"es": "",
-			"ru": "Телемагазины",
-			"custom": []
-		},
-		{
-			"id": "Казахстан | Қазақстан",
-			"en": "",
-			"es": "",
-			"ru": "Казахстан | Қазақстан",
-			"custom": []
-		},
-		{
-			"id": "Украина | Українські",
-			"en": "",
-			"es": "",
-			"ru": "Украина | Українські",
-			"custom": []
-		},
-		{
-			"id": "Религиозные",
-			"en": "",
-			"es": "",
+			"id": "religious",
+			"en": "Religious",
+			"es": "Religioso",
 			"ru": "Религиозные",
-			"custom": []
+			"custom": [
+				"Religion",
+				"Religión",
+				"Религия"
+			]
 		},
 		{
-			"id": "Румыния | Romania",
-			"en": "",
-			"es": "",
-			"ru": "Румыния | Romania",
-			"custom": []
-		},
-		{
-			"id": "Эстония | Eesti",
-			"en": "",
-			"es": "",
-			"ru": "Эстония | Eesti",
-			"custom": []
-		},
-		{
-			"id": "Армения | Հայկական",
-			"en": "",
-			"es": "",
-			"ru": "Армения | Հայկական",
-			"custom": []
-		},
-		{
-			"id": "Грузия | ქართული",
-			"en": "",
-			"es": "",
-			"ru": "Грузия | ქართული",
-			"custom": []
-		},
-		{
-			"id": "Азербайджан | Azərbaycan",
-			"en": "",
-			"es": "",
-			"ru": "Азербайджан | Azərbaycan",
-			"custom": []
+			"id": "notfound",
+			"en": "Not sorted",
+			"es": "Sin ordenar",
+			"ru": "Без категории",
+			"custom": [
+				"Другие",
+				"Другое",
+				"Разное",
+				"UNDEFINED",
+				"Для Android",
+				"Для ForkPlayer",
+				"Без группы"
+			]
 		},
 		{
 			"id": "Беларусь | Беларускія",
 			"en": "",
 			"es": "",
 			"ru": "Беларусь",
-			"custom": []
+			"custom": [
+				"беларускія"
+			]
 		},
 		{
-			"id": "Польша | Poland",
+			"id": "Общие",
 			"en": "",
 			"es": "",
-			"ru": "Польша",
+			"ru": "Общественные",
+			"custom": [
+				"General",
+				"Эфирные",
+				"Эфир",
+				"Центральные",
+				"Общественные",
+				"Федеральные",
+				"Эфирные HD",
+				"RUSSIA",
+				"Общероссийские"
+			]
+		},
+		{
+			"id": "Литва | Lithuania",
+			"en": "",
+			"es": "",
+			"ru": "Литва",
 			"custom": []
 		},
 		{
@@ -288,18 +302,13 @@
 			"custom": []
 		},
 		{
-			"id": "Литва | Lithuania",
+			"id": "Армения | Հայկական",
 			"en": "",
 			"es": "",
-			"ru": "Литва",
-			"custom": []
-		},
-		{
-			"id": "Эстония | Estonia",
-			"en": "",
-			"es": "",
-			"ru": "Эстония",
-			"custom": []
+			"ru": "Армения",
+			"custom": [
+				"Հայկական"
+			]
 		},
 		{
 			"id": "Израиль | ישראלי",
@@ -309,58 +318,58 @@
 			"custom": []
 		},
 		{
+			"id": "Польша | Poland",
+			"en": "",
+			"es": "",
+			"ru": "Польша",
+			"custom": []
+		},
+		{
+			"id": "Украина | Українські",
+			"en": "",
+			"es": "",
+			"ru": "Украина",
+			"custom": [
+				"Украина",
+				"Украинские",
+				"Украина региoнальные",
+				"українські"
+			]
+		},
+		{
 			"id": "adult",
 			"en": "Adult",
 			"es": "Adulto",
 			"ru": "Взрослые",
 			"custom": [
-				"Молдавия | Moldovenească",
-				"Германия | Germany",
-				"Турция | Türk",
-				"Таджикистан | Точик",
-				"Узбекистан | O'zbek",
-				"Болгария | Bulgaria",
-				"Словакия | Slovakia",
-				"Хорватия | Croatia",
-				"Чехия | Czech Republic",
-				"Европа | Europe",
-				"Франция | France",
-				"Италия | Italia",
-				"Испания | Spain",
-				"Португалия | Portugal",
-				"Бразилия | Brasil",
-				"Великобритания | United Kingdom",
-				"США | USA",
-				"Канада | Canada",
-				"Австралия | Australia",
-				"Арабские | عربي",
-				"ОАЭ | UAE",
-				"Египет | Egypt",
-				"Индия | India",
-				"Дания | Denmark",
-				"Нидерланды | Netherlands",
-				"Норвегия | Norway",
-				"Финляндия | Finland",
-				"Швеция | Sweden",
-				"Южная Корея | Korea",
-				"Телемагазины",
-				"Казахстан | Қазақстан",
-				"Украина | Українські",
-				"Религиозные",
-				"Румыния | Romania",
-				"Эстония | Eesti",
-				"Армения | Հայկական",
-				"Грузия | ქართული",
-				"Азербайджан | Azərbaycan"
+				"XXX: | For Adults Only",
+				"XXX",
+				"18+",
+				"Erotic",
+				"Erotics",
+				"XXX (18+)",
+				"XXX: | Solo para adultos",
+				"Эротика",
+				"Для взрослых",
+				"Клубничка",
+				"Порно",
+				"Эротические",
+				"18",
+				"Взрослые",
+				"Взрослые 18+",
+				"Для взрослых (18+)"
 			]
 		}
 	],
 	"withoutGroup": "notfound",
-	"adultCategory": "Взрослые",
+	"adultCategory": "adult",
 	"ignoreNames": [
+		"favorite",
+		"favorites",
+		"favorito",
 		"избранное"
 	],
 	"hideGroup": [
-		"adult"
+		"foreign"
 	]
 }
